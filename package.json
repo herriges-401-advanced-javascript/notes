@@ -1,0 +1,22 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herriges-401-advanced-javascript/notes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herriges-401-advanced-javascript/notes/issues"
+  },
+  "homepage": "https://github.com/herriges-401-advanced-javascript/notes#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
