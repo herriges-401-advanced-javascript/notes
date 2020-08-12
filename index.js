@@ -4,7 +4,13 @@
 const Input = require('./lib/input.js');
 const Note = require('./lib/notes.js');
 
-const note = new Input();
+const input = new Input();
+const command = new Note(input);
 
-const command = new Note(note);
+input.valid() ? command.execute() : help();
+
+function help() {
+    console.log('there\'s been a problem')
+    process.exit();
+}
 
