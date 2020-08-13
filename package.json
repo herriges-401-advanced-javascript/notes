@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/herriges-401-advanced-javascript/notes#readme",
   "dependencies": {
+    "@code-fellows/supergoose": "^1.0.2",
     "jest": "^26.3.0",
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "mongoose": "^5.9.28"
   }
 }
